@@ -1,0 +1,57 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Anuphan', sans-serif;
+}
+.teams-sec{
+padding: 50px 0;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.title p{
+	position:relative;
+	font-size: 13px;
+    color: #808080b5;
+	
+}
+.title p::after{
+	content: " ";
+    width: 80px;
+    height: 1px;
+    position: absolute;
+    background-color: orange;
+    top: 7px;
+    left: 40px;
+}
+.title h2{
+	padding-bottom: 40px;
+	font-size: 30px;
+}
+.col-sec{
+	display:flex;
+	justify-content:space-between;
+}
+.team-mem img{
+	width:260px;
+
+}
+.team-mem{
+	box-shadow:2px 2px 5px grey;
+
+}
+.team-mem h2{
+	font-size:20px;
+	color:#3a3535;
+    padding: 20px 12px 5px;
+}
+.team-mem p{
+	font-size: 14px;
+    color: gray;
+	padding:0 12px 32px;
+}
+
+
+
